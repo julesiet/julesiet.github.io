@@ -2,5 +2,6 @@ body {
   background: #272838;
 }
 h1 {
-  text-color: dark-grey;
+  font-family: 'DM Sans';
+  color: #FAF9F6;
 }
