@@ -1,7 +1,61 @@
+* { /* this affects every single element */
+  font-family: 'DM Sans';
+  color: #FAF9F6;
+}
 body {
   background: #272838;
 }
-h1 {
-  font-family: 'DM Sans';
-  color: #FAF9F6;
+.card {
+  display: flex;
+  margin: 20px;
+  border: 5px solid #b2aec1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to right, #bbe5ed, #bfbccb);
+}
+
+.card-image {
+  flex: 1;
+  min-width: 200px;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+  border-radius: 5px 0 0 5px;
+}
+
+.card-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #FDFAF1;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #272838;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  color: #fff;
+  text-decoration: none;
 }
