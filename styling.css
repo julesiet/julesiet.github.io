@@ -15,7 +15,7 @@ body {
   animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
+@keyframes gradient { /* the worst gradient in the world :sob: */
   0% {
     background-position: 0% 50%;
   }
@@ -47,7 +47,7 @@ body {
   font-size: 32px;
   text-align: center;
   margin-bottom: 10px;
-  color: #FDFAF1;
+  color: #FDF9ED;
 }
 
 .card-text {
@@ -58,47 +58,37 @@ body {
 }
 
 .btn {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #4EBAD0;
+  border-color: #4EBAD0;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
-  margin: 0 auto;
-  margin-top: 5px;
 }
 
 .btn:hover {
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #2F9CB1;
+  border-color: #2F9CB1;
   color: #fff;
   text-decoration: none;
 }
 
 @media screen and (max-width: 1600px) {
   .card-title {
-    font-size: 24px;
+    font-size: 28px;
   }
   .card-text {
-    font-size: 16px;
+    font-size: 20px;
   }
   .btn {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 828px) { /* FIX because phone screen look weird.. float title and description down?? and then photo up?? i do not know how to do that..*/
-  .card-title {
-    font-size: 16px;
-  }
-  .card-text {
-    font-size: 8px;
-  }
-  .btn {
-    font-size: 4px;
-  }
+  
 }
 
 /*
