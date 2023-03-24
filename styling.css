@@ -11,7 +11,20 @@ body {
   border: 5px solid #b2aec1;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(to right, #bbe5ed, #bfbccb);
+  background: linear-gradient(-45deg, #bbe5ed, #bfbccb);
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .card-image {
@@ -31,13 +44,15 @@ body {
 }
 
 .card-title {
-  font-size: 24px;
+  font-size: 32px;
+  text-align: center;
   margin-bottom: 10px;
   color: #FDFAF1;
 }
 
 .card-text {
-  font-size: 16px;
+  font-size: 24px;
+  text-align: center;
   color: #272838;
   margin-bottom: 20px;
 }
@@ -59,3 +74,32 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1600px) {
+  .card-title {
+    font-size: 24px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 828px) {
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 8px;
+  }
+  .btn {
+    font-size: 4px;
+  }
+}
+/*
+- k.o kings w/ eric
+- group coding project w/ jude, dan, other apcs students that want to cause chaos
+- album review page :DDD (THIS ONE IS REALLY COOL!!)
+*/
