@@ -66,6 +66,8 @@ body {
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 
 .btn:hover {
@@ -87,7 +89,7 @@ body {
   }
 }
 
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 828px) { /* FIX because phone screen look weird.. float title and description down?? and then photo up?? i do not know how to do that..*/
   .card-title {
     font-size: 16px;
   }
@@ -98,6 +100,7 @@ body {
     font-size: 4px;
   }
 }
+
 /*
 - k.o kings w/ eric
 - group coding project w/ jude, dan, other apcs students that want to cause chaos
