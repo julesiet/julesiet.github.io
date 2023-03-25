@@ -1,0 +1,109 @@
+* {
+    /* this affects every single element */
+    font-family: 'DM Sans';
+    color: #FAF9F6;
+}
+
+body {
+    background: #272838;
+}
+
+.card {
+    display: flex;
+    margin: 20px;
+    border: 5px solid #b2aec1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(-45deg, #bbe5ed, #bfbccb);
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+
+    /* the worst gradient in the world :sob: */
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card-image {
+    display: flex;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 1rem;
+    max-width: 400px;
+}
+
+.card-content {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 32px;
+    text-align: center;
+    margin: 0 !important;
+    color: #FDF9ED;
+}
+
+.card-text > p {
+    font-size: 24px;
+    text-align: center;
+    color: #272838;
+    margin-bottom: 20px;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn {
+    background-color: #4EBAD0;
+    border-color: #4EBAD0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #2F9CB1;
+    border-color: #2F9CB1;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        flex-direction: column;
+    }
+}
+
+/*
+- k.o kings w/ eric
+- group coding project w/ jude, dan, other apcs students that want to cause chaos
+- album review page :DDD (THIS ONE IS REALLY COOL!!)
+*/
