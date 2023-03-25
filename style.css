@@ -35,25 +35,31 @@ body {
 }
 
 .card-image {
-    flex: 1;
+    display: flex;
     min-width: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-image img {
     width: 100%;
-    display: block;
-    border-radius: 5px 0 0 5px;
+    border-radius: 1rem;
+    max-width: 400px;
 }
 
 .card-content {
+    display: flex;
     flex: 2;
+    flex-direction: column;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-title {
     font-size: 32px;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 0 !important;
     color: #FDF9ED;
 }
 
@@ -82,23 +88,10 @@ body {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1600px) {
-    .card-title {
-        font-size: 28px;
+@media screen and (max-width: 900px) {
+    .card {
+        flex-direction: column;
     }
-
-    .card-text {
-        font-size: 20px;
-    }
-
-    .btn {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 828px) {
-    /* FIX because phone screen look weird.. float title and description down?? and then photo up?? i do not know how to do that..*/
-
 }
 
 /*
