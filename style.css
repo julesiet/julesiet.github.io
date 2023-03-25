@@ -70,6 +70,14 @@ body {
     margin-bottom: 20px;
 }
 
+.card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
 .btn {
     background-color: #4EBAD0;
     border-color: #4EBAD0;
