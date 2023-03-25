@@ -57,7 +57,7 @@ body {
     color: #FDF9ED;
 }
 
-.card-text {
+.card-text > p {
     font-size: 24px;
     text-align: center;
     color: #272838;
