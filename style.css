@@ -97,6 +97,12 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+    .card-title {
+        font-size: 24px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
     .card {
         flex-direction: column;
     }
