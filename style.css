@@ -98,9 +98,12 @@ body {
 
 @media screen and (max-width: 900px) {
     .card-title {
-        font-size: 20px;
+        font-size: 24px;
     }
     .card-text {
+        font-size: 16px;
+    }
+    .card-text > p {
         font-size: 12px;
     }
     .card {
