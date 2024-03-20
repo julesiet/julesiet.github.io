@@ -1,11 +1,12 @@
 * {
     /* this affects every single element */
-    font-family: 'DM Sans';
+    font-family: 'Proxima Nova';
+    font-weight: bold;
     color: #FAF9F6;
 }
 
 body {
-    background: #272838;
+    background: #22232F;
 }
 
 .card {
@@ -14,29 +15,14 @@ body {
     border: 5px solid #b2aec1;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(-45deg, #bbe5ed, #bfbccb);
+    background: #b2aec1;
     animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
-
-    /* the worst gradient in the world :sob: */
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
+/* 
 .card-image {
     display: flex;
-    min-width: 200px;
+    min-width: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -44,8 +30,9 @@ body {
 .card-image img {
     width: 100%;
     border-radius: 1rem;
-    max-width: 400px;
+    max-width: 300px;
 }
+*/
 
 .card-content {
     display: flex;
@@ -79,8 +66,8 @@ body {
 }
 
 .btn {
-    background-color: #4EBAD0;
-    border-color: #4EBAD0;
+    background-color: #333447;
+    border-color: #333447;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
@@ -90,8 +77,8 @@ body {
 }
 
 .btn:hover {
-    background-color: #2F9CB1;
-    border-color: #2F9CB1;
+    background-color: #565776;
+    border-color: #565776;
     color: #fff;
     text-decoration: none;
 }
