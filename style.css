@@ -1,8 +1,13 @@
 * {
     /* this affects every single element */
-    font-family: 'Proxima Nova';
+    font-family: ProximaNova;
     font-weight: bold;
     color: #FAF9F6;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(proxima-nova-2/ProximaNovaRegular.otf)
 }
 
 body {
@@ -44,7 +49,7 @@ body {
 }
 
 .card-title {
-    font-size: 32px;
+    font-size: 48px;
     text-align: center;
     margin: 0 !important;
     color: #FDF9ED;
@@ -95,6 +100,7 @@ body {
     }
 }
 
+  
 /*
 - k.o kings w/ eric
 - group coding project w/ jude, dan, other apcs students that want to cause chaos
