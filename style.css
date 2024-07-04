@@ -1,19 +1,89 @@
+/* asterik affects EVERY single element on a page */
 * {
-    /* this affects every single element */
     font-family: ProximaNova;
     font-weight: bold;
     color: #FAF9F6;
 }
 
+/* this @ symbol doesn't make sense to me BUT the font-face is specifically meant to import the font that i downloaded :] */
 @font-face {
     font-family: ProximaNova;
     src: url(proxima-nova-2/ProximaNovaRegular.otf)
 }
 
+/* affects the body */
 body {
     background: #22232F;
+    overflow-x: hidden; /* the viewport isn't messed up muwhahahahahahhahahahahaHAHAHA >:D */
 }
 
+.photocard {
+    background-color: #FAF9F6;
+    height: 350px;
+    width: 250px;
+    position: absolute; /* figure out why absolute vs. relative positioning (there's a reason i just forgot) */
+    top: 175px;
+    left: 375px;
+}
+
+/* I AM THE CODER. OH MY GOSH. */
+.photo {
+    background-image: url('static/polaroid.jpg'); 
+    height: 275px;
+    width: 220px;
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+}
+
+#frntheader {
+    font-size: 70px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 125px;
+    left: 675px;
+}
+
+#frnttext {
+    background-color: #22232F; /* make this transparent PLEASE */
+    text-align: justify;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 665px;
+}
+/* class for buttons, styling! */
+.btn {
+    background-color: #333447;
+    border-color: #333447;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* does a quirky little thing (changes the color... that's it) when you HOVER over the button (:hover) */
+.btn:hover {
+    background-color: #565776;
+    border-color: #565776;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* responsive css */
+@media screen and (max-width: 900px) {
+    
+}
+
+/* all the card stuff because i'm omitting it to test something out */
+
+/* 
 .card {
     display: flex;
     margin: 20px;
@@ -24,7 +94,7 @@ body {
     animation: gradient 15s ease infinite;
 }
 
-/* 
+
 .card-image {
     display: flex;
     min-width: 100px;
@@ -37,7 +107,7 @@ body {
     border-radius: 1rem;
     max-width: 300px;
 }
-*/
+
 
 .card-content {
     display: flex;
@@ -70,37 +140,8 @@ body {
     gap: 5px;
 }
 
-.btn {
-    background-color: #333447;
-    border-color: #333447;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-}
+*/
 
-.btn:hover {
-    background-color: #565776;
-    border-color: #565776;
-    color: #fff;
-    text-decoration: none;
-}
-
-@media screen and (max-width: 900px) {
-    .card-title {
-        font-size: 24px;
-    }
-    .card-text {
-        font-size: 16px;
-    }
-    .card {
-        flex-direction: column;
-    }
-}
-
-  
 /*
 - k.o kings w/ eric
 - group coding project w/ jude, dan, other apcs students that want to cause chaos
