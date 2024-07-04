@@ -1,4 +1,3 @@
-## julesiet central!! <3
-big website, big blog, big man. :)
+## jules' janky junction (personal portfolio)
+> FIGURING OUT AS WE GO ALONG. 
 
-[comment]: # (#272838, #5D536B, #ADA1BA, #B2AEC1)

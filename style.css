@@ -1,14 +1,20 @@
 /* asterik affects EVERY single element on a page */
 * {
-    font-family: ProximaNova;
-    font-weight: bold;
+    box-sizing: border-box;
     color: #FAF9F6;
 }
 
 /* this @ symbol doesn't make sense to me BUT the font-face is specifically meant to import the font that i downloaded :] */
+/* title font: proxima nova "normal" */
 @font-face {
-    font-family: ProximaNova;
+    font-family: ProximaNovaRegular;
     src: url(proxima-nova-2/ProximaNovaRegular.otf)
+}
+
+/* basic font: proxima nova "lighter" */
+@font-face {
+    font-family: ProximaNovaLight;
+    src: url(proxima-nova-2/ProximaNovaLight.otf)
 }
 
 /* affects the body */
@@ -23,7 +29,7 @@ body {
     width: 250px;
     position: absolute; /* figure out why absolute vs. relative positioning (there's a reason i just forgot) */
     top: 175px;
-    left: 375px;
+    left: 400px;
 }
 
 /* I AM THE CODER. OH MY GOSH. */
@@ -40,21 +46,24 @@ body {
 }
 
 #frntheader {
+    font-family: ProximaNovaRegular;
+    font-weight: bold;
     font-size: 70px;
     letter-spacing: 2px;
     position: relative;
     top: 125px;
-    left: 675px;
+    left: 700px;
 }
 
 #frnttext {
+    font-family: ProximaNovaLight;
     background-color: #22232F; /* make this transparent PLEASE */
     text-align: justify;
     height: 400px;
     width: 300px;
     position: relative;
     top: 100px;
-    left: 665px;
+    left: 690px;
 }
 /* class for buttons, styling! */
 .btn {
@@ -77,7 +86,7 @@ body {
 }
 
 /* responsive css */
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
     
 }
 
