@@ -57,7 +57,7 @@ body {
 
 #frnttext {
     font-family: ProximaNovaLight;
-    background-color: #22232F; /* make this transparent PLEASE */
+    background-color: rgba(34, 35, 47, 0);
     text-align: justify;
     height: 400px;
     width: 300px;
@@ -86,9 +86,30 @@ body {
     text-decoration: none;
 }
 
-/* responsive css */
-@media (max-width: 900px) {
-    
+/* RESPONSIVE CSS: DESKTOPS */
+@media only screen and (min-width: 1920px) {
+    .photocard {
+        top: 350px;
+        left: 750px;
+    }
+    #frntheader {
+        top: 300px;
+        left: 1050px;
+    }
+    #frnttext {
+        top: 275px;
+        left: 1040px;
+    }
+}
+
+/* RESPONSIVE CSS: TABLETS */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* RESPONSIVE CSS: PHONES */
+@media only screen and (min-width: 640px) {
+
 }
 
 /* all the card stuff because i'm omitting it to test something out */
