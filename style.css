@@ -28,7 +28,7 @@ body {
     height: 350px;
     width: 250px;
     position: absolute; /* figure out why absolute vs. relative positioning (there's a reason i just forgot) */
-    top: 175px;
+    top: 200px;
     left: 400px;
 }
 
@@ -49,21 +49,21 @@ body {
     font-family: ProximaNovaRegular;
     font-weight: bold;
     font-size: 70px;
-    letter-spacing: 2px;
     position: relative;
-    top: 125px;
-    left: 700px;
+    top: 150px;
+    left: 675px;
 }
 
 #frnttext {
     font-family: ProximaNovaLight;
+    font-size: 15px;
     background-color: rgba(34, 35, 47, 0);
-    text-align: justify;
+    text-align: left;
     height: 400px;
-    width: 300px;
+    width: 500px;
     position: relative;
-    top: 100px;
-    left: 690px;
+    top: 115px;
+    left: 675px;
 }
 
 /* class for buttons, styling! */
